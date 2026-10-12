@@ -1,0 +1,32 @@
+This project detects and classifies geometric shapes from an image using OpenCV and Python.
+
+The system performs:
+-Image preprocessing-Grayscale conversion
+-Thresholding
+-Contour detection
+-Shape classification
+
+Detected shapes include:
+-Triangle
+-Square
+-Rectangle
+-Pentagom
+-Hexagon
+-Circle
+
+#Technologies Used
+-Python
+-OpenCV
+
+# Features
+-Detects multiple shapes in an image
+-Draws contours around detected shapes
+-Labels each detected shape
+-Uses polygon approximation for classification
+
+# Output
+The program:
+-draws contours around shapes
+-labels detected shapes
+-displays threshold and final output windows
+-saves the final image

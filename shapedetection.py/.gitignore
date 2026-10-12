@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python cache & bytecode
+__pycache__/
+*.pyc
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OpenCV output samples or temporary runs
+output/
+*.jpg
+*.png
+*.mp4
+!sample_demo.jpg # Keep a specific demo image if needed
+
+# Model weights larger than 100MB (use Git LFS for these)
+*.onnx
+*.pb
+*.weights
+*.caffemodel
